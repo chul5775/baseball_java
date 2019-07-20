@@ -1,0 +1,50 @@
+/*
+폰트 참조 사이트       :https://fonts.google.com/earlyaccess
+아이콘 참조 사이트    : https://feathericons.com
+*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('https://fonts.googleapis.com/earlyaccess/jejugothic.css');
+
+.navbar-brand, h1,h2,h3,h4,h5 {
+	font-familt : 'jeju Gothic';
+}
+h5 {
+	font-size : 18px;
+}
+body {
+	font-family : 'Nanum Gothic';
+}
+
+
+/*해더 태크 */
+#header{
+	color : #ffffff;
+	padding-top:10px;
+	padding-bottom : 10px;
+	margin-bottom : 5px;
+}
+/* header 태크의 small부분  색갈뼌경*/
+#header small{
+	color : #cccccc;
+}
+/* 대시보드 페이지를 관리하세요 col-sm-9 부분*/
+.info {
+	margin-top: 3px;
+}
+/*관리 목록 드랍다운 토글 화살표 없애주기*/
+.dropdown-toggle::after {
+	content: none;
+}
+@media (max-width:990px) {
+.mobile {
+	display:none;
+}
+}
+
+.modal {
+	top : 50 %;
+	trasform : translate(0, -50%);
+	margin : 0 auto;
+	height : 720px;
+}
